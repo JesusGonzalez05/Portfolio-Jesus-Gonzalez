@@ -1,49 +1,17 @@
-import React, { useState } from 'react';
-import './App.css'
+import React from 'react';
+import './index.css';
+import 'bulma/css/bulma.min.css';
 
-// Import the components
-import Header from './components/Header';
-import Footer from './components/Footer';
-import About from './components/About ';
-import Contact from './components/Contact';
-import Nav from './components/Nav';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
+// We import our Welcome component from our components folder so that we can eventually return it.
+import Nav from './components/Nav/index';
 
+// Inside our App component, we have a return method that contains all the JSX we want to render to the screen.
+// In this example, we have a parent `div` that references the Welcome component that we imported at the top.
 function App() {
-
-  const [pageIndex, setPageIndex] = useState(0);
-
-
   return (
-    <div className="">
-
-      <Nav
-        showAbout={() => setPageIndex(0)}
-        showProjects={() => setPageIndex(1)}
-        showContact={() => setPageIndex(2)}
-        showResume={() => setPageIndex(3)}
-        pageIndex={pageIndex}
-      />
-
-      <Header />
-
-      {pageIndex === 0 ? (
-        <About />
-      ) : pageIndex === 1 ? (
-        <Projects />
-      ) : pageIndex === 2 ? (
-        <Contact />
-      ) : pageIndex === 3 ? (
-        <Resume />
-      ) : (
-        <About />
-      )}
-
-      <Footer />
-
+    <div className='index main' >
+      <Nav />
     </div>
   );
 }
-
 export default App;
