@@ -57,24 +57,45 @@ border-radius: 850px 850px 0 0;
 display: flex;
 justify-content: center;
 }
-.hole1{
+.hole4{
 height: 50px;
 width: 50px;
 border-radius: 50%;
-background-color: black;
+background-color: hsl(0, 0%, 45%);
 align-self: center;
 }
 .hole2{
 height: 50px;
 width: 50px;
 border-radius: 50%;
-background-color: black;
+background-color: hsl(0, 0%, 45%, 0.7);
 align-self: flex-end;
 }
 .hole3{
+height: 75px;
+width: 75px;
+border-radius: 50%;
+background-color: hsl(0, 1%, 64%, 0.9);
+align-self:baseline;
+}
+.hole1{
+height: 75px;
+width: 75px;
+border-radius: 50%;
+background-color: hsl(0, 1%, 64%, 0.9);
+align-self:center;
+}
+.hole5{
+height: 50px;
+width: 100px;
+border-radius: 50px 50px 0 0;
+background-color: hsl(0, 1%, 64%, 0.7);
+align-self:flex;
+}
+.hole6{
 height: 50px;
 width: 50px;
 border-radius: 50%;
-background-color: black;
+background-color: hsl(0, 0%, 45%, 0.5);
 align-self:baseline;
 }

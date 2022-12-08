@@ -16,12 +16,17 @@ export default function About() {
         {/* moon */}
         <div className='moon-container'>
           <div className='moon'>
-            <div className='hole1'></div>
-            <div className='hole2'></div>
-            <div className='hole3'></div>
-            <div className='hole4'></div>
-            <div className='hole5'></div>
-            <div className='hole6'></div>
+            <div className='hole1'>
+              <div className='hole4'></div>
+            </div>
+            <div className='hole2'>
+              <div className='hole5'></div>
+            </div>
+            <div className='hole3'>
+              <div className='hole6'>
+            </div>
+
+            </div>
 
           </div>
         </div>
