@@ -11,10 +11,16 @@ export default function About() {
       <div className='about-me-container'>
 
         <div className='about-me'>
-
+        </div>
+        
+        {/* moon */}
+        <div className='moon-container'>
+          <div className='moon'>
+          </div>
         </div>
 
       </div>
+
 
     </div>
   );
