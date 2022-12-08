@@ -54,5 +54,27 @@ z-index: 0;
 position: absolute;
 /* border-radius: 150px 150px 0 0; */
 border-radius: 850px 850px 0 0;
-
+display: flex;
+justify-content: center;
+}
+.hole1{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: black;
+align-self: center;
+}
+.hole2{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: black;
+align-self: flex-end;
+}
+.hole3{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: black;
+align-self:baseline;
 }
