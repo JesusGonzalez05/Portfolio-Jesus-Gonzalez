@@ -1,8 +1,48 @@
-.container{
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+.logo{
+  font-family: 'Orbitron', sans-serif;
 }
-#hamburger{
+.navbar{
+background-image: linear-gradient(#6741ffed, #9741ffed);
+}
+#navbarNav{
+display: flex;
+justify-content: flex-end;
+}
+.button {
+  border-radius: 9999px;
+  padding-left: calc(.4em + 0.05em);
+  padding-right: calc(.54em + 0.05em);
+  background-color: transparent;
+  border-color: black;
+  
+  /* color: #fff; */
+  margin-right: 0.25rem!important;
+}
+#about{
+color: white;
+}
+#projects{
+color: white;
+}
+#resume{
+color: white;
+}
+#contact{
+color: white;
+}
+
+
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 991px) {
+  #navbarNav{
+    display: none;
+    }
+}
+
+
+/* #hamburger{
 color:rgb(56, 253, 17);
 }
 main{
@@ -125,4 +165,4 @@ left:220px;
   border-radius: 17px;
   }
   
-  
+   */
