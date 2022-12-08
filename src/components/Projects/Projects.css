@@ -1,20 +1,21 @@
-.jumbotron{
-background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
-position: relative;
+.solar-system{
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
 }
-    
- /* planet Layout */
-
-    .planet{
+    .planet2{
         height:200px;
         width:200px;
         border-radius: 50%;
         position: relative;
         background-color: rgb(101, 71, 185);
-        top:45px;
-        left:820px;
+        /* top:45px; */
+        left: 800px;
+        
         }
-        .r1{
+        .planet2-r1{
         background-color: #8159ee;
         height:20px;
         width:110px;
@@ -23,7 +24,7 @@ position: relative;
         top:60px;
         left:85px;
         }
-        .r2{
+        .planet2-r2{
         background-color: #5da4df;
         height: 15px;
         width:90px;
@@ -32,7 +33,7 @@ position: relative;
         top:80px;
         left:108px;
         }
-        .r3{
+        .planet2-r3{
         background-color: #8159ee;
         height:30px;
         width:120px;
@@ -41,7 +42,7 @@ position: relative;
         top:78px;
         left:50px;
         }
-        .r4{
+        .planet2-r4{
         background-color: #9b82e1;
         height:22px;
         width:90px;
@@ -50,7 +51,7 @@ position: relative;
         top:70px;
         left:21px;
         }
-        .r5{
+        .planet2-r5{
          background-color: rgba(93, 164, 223,0.3);
         height:15px;
         width:40px;
@@ -59,7 +60,7 @@ position: relative;
         bottom:50px;
         left:70px;
         }
-        .r6{
+        .planet2-r6{
         background-color: rgba(93, 164, 223,0.3);
         height:20px;
         width:60px;
@@ -68,7 +69,7 @@ position: relative;
         bottom:25px;
         left:10px;
         }
-        .r7{
+        .planet2-r7{
         background-color: rgba(255,255,255,0.4);
         height:15px;
         width:45px;
@@ -77,7 +78,7 @@ position: relative;
         top:40px;
         left:111px;
         }
-        .r8{
+        .planet2-r8{
         background-color: rgba(255,255,255,0.4);
         height:12px;
         width:30px;
@@ -86,7 +87,7 @@ position: relative;
         top:7px;
         left:32px;
         }
-        .shad{
+        .planet2-shad{
         background-color: transparent;
         box-shadow: 15px 15px rgba(67, 48, 121, 0.3);
         position: relative;

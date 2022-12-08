@@ -4,7 +4,7 @@ import './Hero.css'
 
 export default function Hero() {
   return (
-    <main>
+    <div class="jumbotron jumbotron-fluid">
     <div class="planet">
       <div class="r1"></div>
       <div class="r8"></div>
@@ -17,6 +17,6 @@ export default function Hero() {
       <div class="r8"></div>
       <div class="shad"></div>
     </div>
-  </main>
+  </div>
   );
 }
