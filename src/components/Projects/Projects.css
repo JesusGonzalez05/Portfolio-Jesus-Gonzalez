@@ -1,6 +1,7 @@
 .solar-system{
 display: flex;
 flex-direction: row;
+justify-content: space-around;
 }
 /* nomadic adventures */
 .container1{
