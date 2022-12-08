@@ -11,13 +11,13 @@ align-items: center;
 height: 300px;
 width: 300px;
 background-color: black;
+border-radius: 50%;
 }
 .planet-nomadic{
 height: 250px;
 width: 250px;
 border-radius: 50%;
-background-color: green;
-}
+background: radial-gradient(#e66465, #9198e5);}
 
 /* CINEMAfiles */
 .container2{
@@ -27,10 +27,11 @@ align-items: center;
 height: 300px;
 width: 300px;
 background-color: black;
+border-radius: 50%;
 }
 .planet-CINEMA{
 height: 250px;
 width: 250px;
 border-radius: 50%;
-background-color: orangered;
+background-image: linear-gradient(to bottom right, red, yellow);
 }
