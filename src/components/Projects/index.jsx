@@ -13,6 +13,9 @@ export default function Projects() {
 
           <div className='planet-nomadic'>
           </div>
+          <div className='planet-name1'>
+
+          </div>
 
         </div>
 
