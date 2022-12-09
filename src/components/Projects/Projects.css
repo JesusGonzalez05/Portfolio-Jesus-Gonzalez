@@ -1,13 +1,13 @@
 .solar-system{
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-evenly;
 }
 /* nomadic adventures */
 .container1{
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-evenly;
 align-items: center;
 height: 350px;
 width: 300px;
@@ -30,16 +30,25 @@ background-color: hsla(267, 100%, 63%, 0.3);
 /* CINEMAfiles */
 .container2{
 display: flex;
-justify-content: center;
+flex-direction: column;
+justify-content: space-evenly;
 align-items: center;
-height: 300px;
+height: 350px;
 width: 300px;
 background-color: black;
-border-radius: 50%;
+/* border-radius: 50%; */
 }
 .planet-CINEMA{
 height: 250px;
 width: 250px;
 border-radius: 50%;
 background-image: linear-gradient(to bottom right, red, yellow);
+}
+.planet-name2{
+height: 50px;
+width: 200px;
+background-color: #9741ffed;
+border: solid 2px hsla(267, 100%, 63%, 0.929);
+border-radius: 30px;
+background-color: hsla(267, 100%, 63%, 0.3);
 }

@@ -24,6 +24,9 @@ export default function Projects() {
       
           <div className='planet-CINEMA'>
           </div>
+          <div className='planet-name2'>
+
+          </div>
 
         </div>
     </div>
