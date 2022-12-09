@@ -1,6 +1,19 @@
+.projects-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+}
+.projects-title{
+color: white;
+}
 .solar-system{
+height: 480px;
+width: 800px;
 display: flex;
 flex-direction: row;
+align-items: center;
 justify-content: space-evenly;
 }
 /* nomadic adventures */

@@ -4,8 +4,8 @@ import './Projects.css'
 
 export default function Projects() {
   return (
-  <div>
-    <h1>Projects</h1>
+  <div className='projects-container'>
+    <h1 className='projects-title'>Projects</h1>
 
     <div className='solar-system'>
       {/* nomdaic adventures */}
