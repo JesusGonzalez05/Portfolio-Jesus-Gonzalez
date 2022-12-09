@@ -2,25 +2,15 @@
 .logo{
   font-family: 'Orbitron', sans-serif;
 }
-.burger{
-  display: none;
-}
-.navbar{
-background-image: linear-gradient(#6741ffed, #9741ffed);
-}
-#navbarNav{
-display: flex;
-justify-content: flex-end;
+.navigation{
+background-image: linear-gradient(rgb(36, 36, 36), black);
+/* background-color: black; */
 }
 .button {
   border-radius: 9999px;
-  padding-left: calc(.4em + 0.05em);
-  padding-right: calc(.54em + 0.05em);
   background-color: transparent;
-  border-color: black;
-  
-  /* color: #fff; */
-  margin-right: 0.25rem!important;
+  border: solid 2px hsla(267, 100%, 63%, 0.636);  
+  margin-right: 1rem!important;
 }
 #about{
 color: white;

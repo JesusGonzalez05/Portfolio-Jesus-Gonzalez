@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 
-<div>
+<div className='navigation'>
 <ul class="nav justify-content-center">
 
   <li class="nav-item">
