@@ -1,11 +1,12 @@
 .projects-container{
 display: flex;
 flex-direction: column;
-justify-content: center;
+/* justify-content: space-around; */
 align-items: center;
 background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
 }
 .projects-title{
+margin: 1em 1em 0rem 1em;
 color: white;
 }
 .solar-system{
