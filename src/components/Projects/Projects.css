@@ -9,6 +9,10 @@ background-image: url("https://stepik.org/media/attachments/lesson/452681/space.
 margin: 1em 1em 0rem 1em;
 color: white;
 }
+h6{
+color: white;
+margin-top: 8px;
+}
 .solar-system{
 height: 480px;
 width: 800px;

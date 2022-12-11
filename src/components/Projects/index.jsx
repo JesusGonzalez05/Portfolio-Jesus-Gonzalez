@@ -13,9 +13,9 @@ export default function Projects() {
 
           <div className='planet-nomadic'>
           </div>
-          <div className='planet-name1'>
-
-          </div>
+          <button className='planet-name1'>
+            <h6>Nomadic Adventures</h6>
+          </button>
 
         </div>
 
@@ -24,9 +24,9 @@ export default function Projects() {
       
           <div className='planet-CINEMA'>
           </div>
-          <div className='planet-name2'>
-
-          </div>
+          <button className='planet-name2'>
+            <h6>CINEMAfiles</h6>
+          </button>
 
         </div>
     </div>
