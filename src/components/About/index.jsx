@@ -4,14 +4,21 @@ import './About.css'
 export default function About() {
   return (
     <div className='about-me-page'>
+
+      <div className='about-me-container'>
+
       <div className='about-title-container'>
         <h1 className='about-title'>About Me</h1>
       </div>
 
-      <div className='about-me-container'>
+      {/* <div className='flag-container'> */}
+      <div className='flag-pole'>
 
-        <div className='about-me'>
-        </div>
+      <div className='flag'></div>
+
+
+      </div>
+      {/* </div> */}
         
         {/* moon */}
         <div className='moon-container'>

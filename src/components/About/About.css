@@ -2,9 +2,6 @@
 .about-me-page{
 background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
 
-/* background-color: #191919; */
-/* background-image: linear-gradient(#333333, #191919); */
-/* background-image: linear-gradient(#191919, #333333); */
 display: flex;
 flex-direction: column;
 height: 535px;
@@ -14,20 +11,22 @@ height: 535px;
 display: flex;
 justify-content: center;
 align-items: center;
+align-self: flex-start;
 height: 70px;
 width: 250px;
 border: solid 2px hsla(267, 100%, 63%, 0.929);
 border-radius: 30px;
 background-color: hsla(267, 100%, 63%, 0.3);
-margin: 1em 2em;
+margin: 1em 8em;
 }
 .about-title{
 color: white;
 }
 .about-me-container{
+height: 535px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
 }
 .about-me{
@@ -46,12 +45,28 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+/* .flag-container{
+display: flex;
+flex-direction: row;
+height: 100px;
+width: 100px;
+} */
+.flag-pole{
+height: 100px;
+width: 6px;
+background-color: grey;
+}
+.flag{
+height: 40px;
+width: 60px;
+background-color: pink;
+}
 .moon{
 background-color: rgb(243, 228, 198);
 height: 300px;
 width: 600px;
 z-index: 0;
-position: absolute;
+/* position: absolute; */
 /* border-radius: 150px 150px 0 0; */
 border-radius: 850px 850px 0 0;
 display: flex;
