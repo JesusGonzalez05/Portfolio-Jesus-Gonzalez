@@ -12,6 +12,8 @@ export default function Projects() {
         <div className='container1'>
 
           <div className='planet-nomadic'>
+            <div className='cloud1'></div>
+            <div className='cloud2'></div>
           </div>
           <button className='planet-name1'>
             <h6>Nomadic Adventures</h6>

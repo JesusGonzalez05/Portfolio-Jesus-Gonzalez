@@ -33,10 +33,21 @@ background-color: black;
 /* border-radius: 50%; */
 }
 .planet-nomadic{
+display: flex;
+justify-content:center;
 height: 250px;
 width: 250px;
 border-radius: 50%;
-background: radial-gradient(#e66465, #9198e5);}
+background: radial-gradient(#e66465, #9198e5);
+/* z-index: -1; */
+}
+.cloud1{
+height: 15px;
+width: 15px;
+background-color: white;
+/* z-index: 1; */
+}
+.cloud2{}
 .planet-name1{
 height: 50px;
 width: 200px;
