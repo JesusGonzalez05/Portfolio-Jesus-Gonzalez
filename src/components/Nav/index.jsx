@@ -1,32 +1,39 @@
 import React from 'react';
+import './NavTabs.css'
+import "materialize-css/dist/css/materialize.min.css";
 
-const Nav = ({ showAbout, showProjects, showContact, showResume, pageIndex }) => {
-    return (
-      <div>
-      <nav class="navbar has-background-grey-dark" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <div class="navbar-item">
-                    <p class="nav button is-large is-rounded m-1 is-dark"><a href="/">Jesus Gonzalez</a> </p>
-                </div>
-          
-              <a href role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span id="hamburger" aria-hidden="true"></span>
-                <span id="hamburger" aria-hidden="true"></span>
-                <span id="hamburger" aria-hidden="true"></span>
-              </a>
-            </div>
-            <div class="navbar-menu">
-    
-                <div class="navbar-end">
-                    <p class="nav button is-rounded m-3 is-dark"><a href="#aboutme">About Me</a> </p>
-                    <p class="nav button is-rounded m-3 is-dark"><a href="#work">Work</a> </p>
-                    <p class="nav button is-rounded m-3 is-dark"><a href="#contactme">Contact Me</a> </p>
-                    <p class="nav button is-rounded m-3 is-dark"><a href="https://onedrive.live.com/edit.aspx?resid=EFA38E878C92F671!1659&cid=9161be93-d4ff-4734-a59d-46cb60037bd9&ithint=file%2cdocx&wdOrigin=OFFICECOM-WEB.MAIN.REC">Resume</a> </p>
-                </div>
-            </div>
-        </nav>
+
+
+// Here we are using object destructuring assignment to pluck off our variables from the props object
+// We assign them to their own variable names
+function NavTabs({ currentPage, handlePageChange }) {
+  return (
+    <div>
+    <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Jesus Gonzalez</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a id='about' href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a></li>
+        <li><a id='projects' href="#Projects" onClick={() => handlePageChange('Projects')} className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>Projects</a></li>
+        <li><a id='resume' href="#Resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a></li>
+        <li><a id='contact' href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a></li>
+      </ul>
     </div>
-    );
-};
+  </nav>
 
-export default Nav;
+  <ul class="right sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+  </div>
+
+
+  );
+}
+
+export default NavTabs;
+
+
