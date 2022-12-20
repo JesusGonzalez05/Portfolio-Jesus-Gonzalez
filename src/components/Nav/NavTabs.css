@@ -2,6 +2,12 @@
 .logo{
   font-family: 'Orbitron', sans-serif;
 }
+.custom-toggler.navbar-toggler {
+  color: white;
+}
+.custom-toggler.navbar-toggler:active {
+border: none;
+}
 .navigation{
 background-image: linear-gradient(rgb(36, 36, 36), black);
 /* background-color: black; */
@@ -25,149 +31,3 @@ color: white;
 color: white;
 }
 
-
-
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 991px) {
-  #navbarNav{
-    display: none;
-    }
-  .burger{
-    display: flex;
-    flex-direction: column;
-    height: 30px;
-    width: 30px;
-  }
-  .one{
-    display: flex;
-    flex-direction: column;
-    height: 2px;
-    width: 5px;
-  }
-}
-
-
-/* #hamburger{
-color:rgb(56, 253, 17);
-}
-main{
-background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
-}
-.planet{
-height:200px;
-width:200px;
-border-radius: 50%;
-position: relative;
-background-color: rgb(101, 71, 185);
-top:45px;
-left:220px;
-}
-    .r1{
-      background-color: #8159ee;
-      height:20px;
-      width:110px;
-      border-radius:10px;
-      position: relative;
-      top:60px;
-      left:85px;
-    }
-    .r2{
-      background-color: #5da4df;
-      height: 15px;
-      width:90px;
-      border-radius:6.5px;
-      position: relative;
-      top:80px;
-      left:108px;
-    }
-    .r3{
-      background-color: #8159ee;
-      height:30px;
-      width:120px;
-      border-radius: 15px;
-      position: relative;
-      top:78px;
-      left:50px;
-    }
-    .r4{
-      background-color: #9b82e1;
-      height:22px;
-      width:90px;
-      border-radius:11px;
-      position: relative;
-      top:70px;
-      left:21px;
-    }
-    .r5{
-      background-color: rgba(93, 164, 223,0.3);
-      height:15px;
-      width:40px;
-      border-radius:7.5px;
-      position: relative;
-      bottom:50px;
-      left:70px;
-    }
-    .r6{
-      background-color: rgba(93, 164, 223,0.3);
-      height:20px;
-      width:60px;
-      border-radius:11px;
-      position: relative;
-      bottom:25px;
-      left:10px;
-    }
-    .r7{
-      background-color: rgba(255,255,255,0.4);
-      height:15px;
-      width:45px;
-      border-radius:7.5px;
-      position: relative;
-      top:40px;
-      left:111px;
-    }
-    .r8{
-      background-color: rgba(255,255,255,0.4);
-      height:12px;
-      width:30px;
-      border-radius:7.5px;
-      position: relative;
-      top:7px;
-      left:32px;
-    }
-    .shad{
-      background-color: transparent;
-      box-shadow: 15px 15px rgba(67, 48, 121, 0.3);
-      position: relative;
-      height:200px;
-      width:200px;
-      border-radius: 50%;
-      bottom: 176px;
-      right:16px;
-    }
-  
-  
-  .rectangle-canvas{
-  height:500px;
-  width: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  .rectangle{
-  height:200px;
-  width: 450px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 17px;
-  }
-  .message-container{
-  height:175px;
-  width: 427px;
-  background-color: white;
-  display: flex;
-  border-radius: 17px;
-  }
-  
-   */
