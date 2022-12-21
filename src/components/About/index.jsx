@@ -21,7 +21,7 @@ export default function About() {
       {/* </div> */}
         
         {/* moon */}
-        <div className='moon-container'>
+        {/* <div className='moon-container'>
           <div className='moon'>
             <div className='hole1'>
               <div className='hole4'></div>
@@ -36,7 +36,7 @@ export default function About() {
             </div>
 
           </div>
-        </div>
+        </div> */}
 
       </div>
 
