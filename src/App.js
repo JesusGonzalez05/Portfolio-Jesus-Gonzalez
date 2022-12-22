@@ -25,8 +25,9 @@ import Particles from "./components/particles";
 function App() {
     return (
       <>
-            <Particles />
+            {/* <Particles /> */}
               <Router>
+                <Particles />
                 <Nav />
                 <Routes>
                   <Route path="/" element={<Home />} />
