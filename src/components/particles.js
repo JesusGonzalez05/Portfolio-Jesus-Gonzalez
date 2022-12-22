@@ -70,7 +70,7 @@ function Particle() {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 3,
                         straight: false,
                     },
                     number: {
@@ -81,7 +81,7 @@ function Particle() {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.3,
                     },
                     shape: {
                         type: "circle",

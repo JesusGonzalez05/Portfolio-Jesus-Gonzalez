@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './NavTabs.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -20,20 +21,28 @@ function NavTabs({ currentPage, handlePageChange }) {
     </button>
     <div class="custom-collapse collapse navbar-collapse" id="navmenu">
       <ul class="navbar-nav ms-auto">
+        <Link to="/AboutMe" className="text-decoration-none"> 
+          <li class="nav-item">
+            <a className='nav-link text-white'>
+              About
+            </a>
+          </li>
+        </Link>
+        <Link to="/Projects" className="text-decoration-none"> 
+          <li class="nav-item">
+            <a className='nav-link text-white'>Projects</a>        
+          </li>
+        </Link>
+        <Link to="/Resume" className="text-decoration-none"> 
         <li class="nav-item">
-        <a id='about' href="#about" onClick={() => handlePageChange('About')} className='nav-link text-white'>
-          About
-        </a>
+        <a className='nav-link text-white'>Resume</a>        
         </li>
+        </Link>
+        <Link to="/Contact" className="text-decoration-none"> 
         <li class="nav-item">
-        <a id='projects' href="#Projects" onClick={() => handlePageChange('Projects')} className='nav-link text-white'>Projects</a>        
+        <a className='nav-link text-white'>Contact</a>        
         </li>
-        <li class="nav-item">
-        <a id='resume' href="#Resume" onClick={() => handlePageChange('Resume')} className='nav-link text-white'>Resume</a>        
-        </li>
-        <li class="nav-item">
-        <a id='contact' href="#contact" onClick={() => handlePageChange('Contact')} className='nav-link text-white'>Contact</a>        
-        </li>
+        </Link>
       </ul>
     </div>
   </div>
