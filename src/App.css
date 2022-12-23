@@ -30,6 +30,11 @@
 .App-link {
   color: #61dafb;
 }
+/* contact page */
+#contact-card{
+height: 75vh;
+margin: 4rem;
+}
 
 @keyframes App-logo-spin {
   from {
