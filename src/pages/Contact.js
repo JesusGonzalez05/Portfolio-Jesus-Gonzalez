@@ -26,8 +26,11 @@ const Contact = () => {
           </div>
           <div class="input-group">
             <label for="textarea" class="col-sm-2 col-form-label">Say Hi!</label>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-          </div>       
+            <div class="col-sm-10">
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div> 
+          <button id="submit-btn" type="button" class="btn btn-dark btn-sm">Submit</button>      
         </div>
       </div>
     </div>

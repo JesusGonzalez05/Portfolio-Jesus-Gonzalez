@@ -35,6 +35,9 @@
 height: 50vh;
 margin: 4rem;
 }
+#submit-btn{
+margin: 1rem;
+}
 
 @keyframes App-logo-spin {
   from {
