@@ -3,43 +3,13 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='about-me-page'>
-
-      <div className='about-me-container'>
-
-      <div className='about-title-container'>
-        <h1 className='about-title'>About Me</h1>
+    <div className="container mt-5 about-container">
+      <div id="about-me" className="card" >
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
       </div>
-
-      {/* <div className='flag-container'> */}
-      <div className='flag-pole'>
-
-      <div className='flag'></div>
-
-
-      </div>
-      {/* </div> */}
-        
-        {/* moon */}
-        {/* <div className='moon-container'>
-          <div className='moon'>
-            <div className='hole1'>
-              <div className='hole4'></div>
-            </div>
-            <div className='hole2'>
-              <div className='hole5'></div>
-            </div>
-            <div className='hole3'>
-              <div className='hole6'>
-            </div>
-
-            </div>
-
-          </div>
-        </div> */}
-
-      </div>
-
 
     </div>
   );
