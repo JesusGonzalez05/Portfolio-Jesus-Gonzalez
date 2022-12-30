@@ -8,9 +8,9 @@ const About = () => {
     <>
     <div id="about-container" className="container mt-md-5 mx-md-5 mt-xs-5 mx-xs-5">
       <div id="about-me" className="card" >
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div className="card-body">
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
