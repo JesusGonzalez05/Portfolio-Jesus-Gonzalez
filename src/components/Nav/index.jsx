@@ -9,9 +9,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 function NavTabs({ currentPage, handlePageChange }) {
 
   return (
-<nav className="custom-navbar navbar navbar-expand-lg navbar-light bg-black py-3">
-  <div className="container">
-    <Link to="/" className="text-decoration-none"><p id="logo" className="mx-3 navbar-brand text-white">Jesus Gonzalez</p></Link>
+<nav id="custom-navbar" className="navbar navbar-expand-lg navbar-light py-3">
+  <div>
+    {/* <Link to="/" className="text-decoration-none"><p id="logo" className="mx-3 navbar-brand text-white">Jesus Gonzalez</p></Link> */}
     <button id="toggle" className="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-rocket-takeoff" viewBox="0 0 16 16">
         <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
@@ -23,24 +23,24 @@ function NavTabs({ currentPage, handlePageChange }) {
       <ul className="navbar-nav ms-auto">
         <Link to="/AboutMe" className="text-decoration-none"> 
           <li className="nav-item">
-            <p className='nav-link text-white'>
+            <p className='button nav-link text-white'>
               About
             </p>
           </li>
         </Link>
         <Link to="/Projects" className="text-decoration-none"> 
           <li className="nav-item">
-            <p className='nav-link text-white'>Projects</p>        
+            <p className='button nav-link text-white'>Projects</p>        
           </li>
         </Link>
         <Link to="/Resume" className="text-decoration-none"> 
         <li className="nav-item">
-        <p className='nav-link text-white'>Resume</p>        
+        <p className='button nav-link text-white'>Resume</p>        
         </li>
         </Link>
         <Link to="/Contact" className="text-decoration-none"> 
         <li className="nav-item">
-        <p className='nav-link text-white'>Contact</p>        
+        <p className='button nav-link text-white'>Contact</p>        
         </li>
         </Link>
       </ul>

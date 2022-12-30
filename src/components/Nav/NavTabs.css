@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
-.logo{
-  font-family: 'Orbitron', sans-serif;
-}
 .custom-toggler.navbar-toggler {
   color: white;
 }
-.custom-navbar{
-/* height: 65px; */
+#custom-navbar{
+justify-content: center;
 }
 #toggle:active {
   border: none;
@@ -18,8 +14,23 @@ background-image: linear-gradient(rgb(36, 36, 36), black);
 .button {
   border-radius: 9999px;
   background-color: transparent;
-  border: solid 2px hsla(267, 100%, 63%, 0.636);  
+  /* border: solid 2px hsla(0, 0%, 100%, 0.636); */
+  /* box-shadow: inset 0 0 10px hsla(0, 0%, 57%, 0.636); */
   margin-right: 1rem!important;
+}
+li:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all 0.4s ease;
+  bottom: 20%;
+}
+li:hover::after {
+  width: 80%;
+  height: 1px;
+  background-color: #fff;
 }
 #about{
 color: white;
