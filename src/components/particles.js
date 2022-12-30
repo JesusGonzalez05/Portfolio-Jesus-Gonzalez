@@ -68,7 +68,7 @@ function Particle() {
                 },
                 "move": {
                     "enable": true,
-                    "speed": 0.12,
+                    "speed": 0.35,
                     "direction": "none",
                     "random": true,
                     "straight": false,
