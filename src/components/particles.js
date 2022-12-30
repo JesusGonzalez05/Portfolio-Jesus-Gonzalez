@@ -54,8 +54,8 @@ function Particle() {
                     "random": true,
                     "anim": {
                         "enable": false,
-                        "speed": 4,
-                        "size_min": 0.3,
+                        "speed": 5,
+                        "size_min": 0.1,
                         "sync": false
                     }
                 },
@@ -68,7 +68,7 @@ function Particle() {
                 },
                 "move": {
                     "enable": true,
-                    "speed": 0.35,
+                    "speed": 0.2,
                     "direction": "none",
                     "random": true,
                     "straight": false,
@@ -84,12 +84,12 @@ function Particle() {
             "interactivity": {
                 "events": {
                     "onhover": {
-                        "enable": false,
+                        "enable": true,
                         "mode": "connect"
                     },
                     "onclick": {
-                        "enable": false,
-                        "mode": "attract"
+                        "enable": true,
+                        "mode": "repulse"
                     },
                     "resize": true
                 },
