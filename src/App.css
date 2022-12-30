@@ -45,10 +45,23 @@ height: 10rem;
 width: 47rem;
 background-color: hsl(0, 0%, 100%, .8);
 }
-.about-container{
+#about-container{
+position: absolute;
+overflow: hidden;
+z-index: 100;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
+}
+#lottie-bg{
+position: absolute;
+z-index: -1;
+height: 600px;
+width: 600px;
+}
+Lottie {
+position:absolute;
+z-index:-999;
 }
 
 @keyframes App-logo-spin {

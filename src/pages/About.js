@@ -1,9 +1,12 @@
 import React from 'react';
-// import './About.css'
+import Moon from '../Moon.json';
+import Lottie from 'lottie-react';
+
 
 const About = () => {
   return (
-    <div className="container mt-5 about-container">
+    <>
+    <div id="about-container" className="container mt-5">
       <div id="about-me" className="card" >
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
@@ -12,6 +15,10 @@ const About = () => {
       </div>
 
     </div>
+    <div id='lottie-bg'>
+    <Lottie animationData={Moon} />
+    </div>
+    </>
   );
 }
 export default About;
