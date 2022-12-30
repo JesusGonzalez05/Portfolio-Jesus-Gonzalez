@@ -40,6 +40,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
+
 .home-title{
 color: white;
 font-size: 70px;
@@ -55,20 +56,26 @@ font-weight: 100;
 #contact-card{
 height: 50vh;
 margin: 4rem;
+background-color: hsl(0, 0%, 100%, .8);
+border: 5px solid white;
+
+
 }
 #submit-btn{
 margin: 1rem;
 }
 
 /* about me page */
-#about-me{
-height: 10rem;
+#boarding-pass{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height: 17rem;
 width: 50rem;
 background-color: hsl(0, 0%, 100%, .8);
 border: 5px solid white;
-
 }
-#about-container{
+#boarding-container{
 height: 100vh;
 width: 100vw;
 position: absolute;
@@ -78,6 +85,30 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
+.boarding{
+  flex-basis: 100%;
+
+}
+.planets-name{
+height: 50px;
+width: 200px;
+background-color: white;
+flex-basis: 70%;
+}
+.about-me{
+height: 50px;
+width: 200px;
+background-color: white;
+flex-basis: 70%;
+}
+.skills{
+height: 50px;
+width: 200px;
+background-color: white;
+flex-basis: 70%;
+}
+
+
 #lottie-bg{
 position: absolute;
 z-index: -1;
