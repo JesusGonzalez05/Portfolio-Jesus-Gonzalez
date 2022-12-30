@@ -56,7 +56,7 @@ justify-content: center;
 #lottie-bg{
 position: absolute;
 z-index: -1;
-height: 75vh;
+height: 90vh;
 width: 100vw;
 display: flex;
 flex-direction: row;
