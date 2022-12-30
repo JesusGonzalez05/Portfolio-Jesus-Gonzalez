@@ -6,7 +6,7 @@ import Lottie from 'lottie-react';
 const About = () => {
   return (
     <>
-    <div id="about-container" className="container mt-5 mx-5">
+    <div id="about-container" className="container mt-md-5 mx-md-5 mt-xs-5 mx-xs-5">
       <div id="about-me" className="card" >
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
