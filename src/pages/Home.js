@@ -7,10 +7,9 @@ const Home = () => {
 
     return (
       <main>
-        <div className="flex-row justify-center">
-          <div className="col-12 col-md-10 my-3">
-            <h1>hello</h1>
-          </div>
+        <div className="title-container">
+            <h1 className='home-title'>Jesus Gonzalez</h1>
+            <h2 className='home-subtitle'>Web Developer</h2>
         </div>
       </main>
     );
