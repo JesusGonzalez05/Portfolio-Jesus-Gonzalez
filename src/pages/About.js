@@ -10,9 +10,8 @@ const About = () => {
       <div id="boarding-pass" className="" >
         <div className="boarding text-center mt-2">
           <h5 className="card-title">About Me</h5>
-          <img className="Avatar" src={Avatar} alt="Jesus' avatar"></img>
         </div>
-        
+        <img className='Avatar ms-sm-5 mb-sm-5 mb-5' src = {Avatar} alt="Jesus' avatar"></img>
 
 
 

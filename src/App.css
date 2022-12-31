@@ -74,6 +74,7 @@ height: 17rem;
 width: 50rem;
 background-color: hsl(0, 0%, 100%, .8);
 border: 5px solid white;
+
 }
 #boarding-container{
 height: 100vh;
@@ -90,7 +91,8 @@ height: 20px;
 flex-basis: 100%;
 }
 .Avatar{
-height: 200px;
+height: 175px;
+margin-top: 0px;
 }
 .destination{
 height: 20px;
