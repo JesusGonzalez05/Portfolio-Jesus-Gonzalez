@@ -93,6 +93,8 @@ flex-basis: 100%;
 .Avatar{
 height: 175px;
 margin-top: 0px;
+background-color: white;
+border-radius: 50%;
 }
 .destination{
 height: 20px;
