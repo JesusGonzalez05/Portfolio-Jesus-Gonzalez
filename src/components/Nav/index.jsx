@@ -24,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <Link to="/AboutMe" className="text-decoration-none"> 
           <li className="nav-item">
             <p className='button nav-link text-white'>
-              About
+              About Me
             </p>
           </li>
         </Link>

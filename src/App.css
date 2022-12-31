@@ -74,7 +74,6 @@ height: 17rem;
 width: 50rem;
 background-color: hsl(0, 0%, 100%, .8);
 border: 5px solid white;
-
 }
 #boarding-container{
 height: 100vh;
@@ -86,9 +85,11 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
-.boarding{
+.title{
 height: 20px;
 flex-basis: 100%;
+font-family: 'Orbitron', sans-serif;
+font-size: 25px;
 }
 .Avatar{
 height: 175px;
@@ -96,31 +97,14 @@ margin-top: 0px;
 background-color: white;
 border-radius: 50%;
 }
-.destination{
-height: 20px;
-font-size: 15px;
-flex-basis: 70%;
-}
-.planets-name{
-height: 50px;
-width: 200px;
+.about-text{
+flex-basis: 50%;
+align-self: center;
 background-color: white;
-flex-basis: 70%;
-}
-.about-me{
-height: 50px;
-width: 200px;
-background-color: white;
-flex-basis: 70%;
-}
-.skills{
-height: 50px;
-width: 200px;
-background-color: white;
-flex-basis: 70%;
-}
+padding-top: 1rem;
+width: 50%;
 
-
+}
 #lottie-bg{
 position: absolute;
 z-index: -1;
@@ -133,8 +117,6 @@ justify-content: center;
 Lottie {
 position:absolute;
 z-index:-999;
-
-
 }
 
 @keyframes App-logo-spin {
@@ -143,5 +125,17 @@ z-index:-999;
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 600px) {
+    .Avatar{
+      height: 175px;
+      width: 50%;
+      margin-top: 0px;
+      background-color: white;
+      border-radius: 50%;
+      }
   }
 }
