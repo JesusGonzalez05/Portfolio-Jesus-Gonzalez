@@ -18,15 +18,19 @@ const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className='contact-page'>
+      <div className='form-container'>
+        <form className="form" ref={form} onSubmit={sendEmail}>
+          <label className='label-1'>Name</label>
+          <input type="text" name="user_name" />
+          <label className='label-1'>Email</label>
+          <input type="email" name="user_email" />
+          <label className='label-2'>Message</label>
+          <textarea name="message" />
+          <input className="email-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
   );
 }
 export default Contact;

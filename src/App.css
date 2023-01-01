@@ -52,18 +52,6 @@ font-size: 40px;
 font-family: 'Orbitron', sans-serif;
 font-weight: 100;
 }
-/* contact page */
-#contact-card{
-height: 50vh;
-margin: 4rem;
-background-color: hsl(0, 0%, 100%, .8);
-border: 5px solid white;
-
-
-}
-#submit-btn{
-margin: 1rem;
-}
 
 /* about me page */
 #boarding-pass{
@@ -211,6 +199,34 @@ border: 3px solid white;
 border-radius: 5px;
 margin-top: -.5rem;
 }
+
+/* contact page */
+.contact-page{
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+}
+.form{
+margin: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: stretch;
+}
+.form-container{
+height: 50vh;
+width: 50vw;
+background-color: hsl(0, 0%, 100%, .8);
+border: 3px solid white;
+}
+.email-btn{
+margin: 0.75rem;
+}
+input{
+/* width: 75%; */
+}
+
 
 @media only screen and (max-width: 500px) {
   /* about page */
