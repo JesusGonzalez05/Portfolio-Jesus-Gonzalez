@@ -4,14 +4,13 @@ import React from 'react';
 
 export default function Projects() {
   return (
-  <div className='projects-container bg-white'>
-    <h1>Hello, world!</h1>
-    <p>
-      This is a simple hero unit, a simple jumbotron-style component for calling
-      extra attention to featured content or information.
-    </p>
-    <p>
-    </p>
-  </div>
+<div className='project-page'>
+    <div id="project-title" className="shadow" >
+      <div className="title text-center mt-2">
+        <p className="card-title">Projects</p>
+      </div>
+        {/* <div className='Avatar ms-sm-5 mb-sm-5 mb-5 shadow-lg' alt="Jesus' avatar"></div> */}
+    </div>
+</div>
   );
 }
