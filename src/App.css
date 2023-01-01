@@ -102,21 +102,23 @@ flex-basis: 20%;
 }
 .text-icons{
 flex-basis: 55%;
-margin: 1rem 0rem 0rem 8rem;
+margin: -0.5rem 0rem 0rem 3rem;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
 }
 .about-text{
 /* flex-basis: 55%; */
 align-self: center;
 background-color: hsl(0, 0%, 92%, .8);
 padding-top: 1rem;
-width: 50%;
+/* width: 50%; */
 /* margin: -1rem 3rem 2rem 5rem; */
 border-radius: 5px;
 }
 .icons{
 height: 70px;
 width: 200px;
-flex-basis: 55%;
 align-self: center;
 background-color: hsl(0, 0%, 92%, .8);
 padding-top: 1rem;

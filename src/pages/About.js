@@ -25,7 +25,7 @@ const About = () => {
           <div className="about-text text-center shadow-lg ">
             <p>I'm a Software Engineer eager and passionate in create scalable and functional web applications. </p>
           </div>
-          <div className='icons'>
+          <div className='icons text-center'>
             <i id="Devicon" class=" devicon-mongodb-plain-wordmark"></i>
             <i id="Devicon" class=" devicon-express-original-wordmark"></i>
             <i id="Devicon" class=" devicon-react-original-wordmark"></i>
