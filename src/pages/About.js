@@ -12,28 +12,18 @@ const About = () => {
           <p className="card-title">About Me</p>
         </div>
         <img className='Avatar ms-sm-5 mb-sm-5 mb-5 shadow-lg' src = {Avatar} alt="Jesus' avatar"></img>
-        {/* <div className="about-text text-center shadow-lg ">
-          <p>I'm a Software Engineer eager and passionate in create scalable and functional web applications. </p>
-        </div>
-        <div className='icons'>
-          <i id="Devicon" class=" devicon-mongodb-plain-wordmark"></i>
-          <i id="Devicon" class=" devicon-express-original-wordmark"></i>
-          <i id="Devicon" class=" devicon-react-original-wordmark"></i>
-          <i id="Devicon" class=" devicon-nodejs-plain-wordmark"></i>
-        </div> */}
         <div className='text-icons'>
           <div className="about-text text-center shadow-lg ">
             <p>I'm a Software Engineer eager and passionate in create scalable and functional web applications. </p>
           </div>
           <div className='icons text-center'>
-            <i id="Devicon" class=" devicon-mongodb-plain-wordmark"></i>
-            <i id="Devicon" class=" devicon-express-original-wordmark"></i>
-            <i id="Devicon" class=" devicon-react-original-wordmark"></i>
-            <i id="Devicon" class=" devicon-nodejs-plain-wordmark"></i>
+            <i id="Devicon" className="devicon-mongodb-plain-wordmark"></i>
+            <i id="Devicon" className="devicon-express-original-wordmark"></i>
+            <i id="Devicon" className="devicon-react-original-wordmark"></i>
+            <i id="Devicon" className="devicon-nodejs-plain-wordmark"></i>
           </div>
         </div>
       </div>
-
     </div>
     <div id='lottie-bg'>
     <Lottie animationData={Moon} />

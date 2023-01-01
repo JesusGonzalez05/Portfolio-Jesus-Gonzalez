@@ -4,33 +4,33 @@ import '../App.css'
 const Contact = () => {
   return (
     <div>
-      <div id="contact-card" class=" card w-75 p-3 mx-auto">
-        <div class="card-body">
-          <div class="mb-3 row">
-            <label for="Name" class="col-sm-2 col-form-label">Name</label>
-              <div class="col-sm-10">
-                <input class="form-control" placeholder='Name'></input>
+      <div id="contact-card" className=" card w-75 p-3 mx-auto">
+        <div className="card-body">
+          <div className="mb-3 row">
+            <label for="Name" className="col-sm-2 col-form-label">Name</label>
+              <div className="col-sm-10">
+                <input className="form-control" placeholder='Name'></input>
               </div>
           </div>
-          <div class="mb-3 row">
-            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-              <div class="col-sm-10">
-              <input type="Email" class="form-control" placeholder='Email@address.com' id="Email"></input>
+          <div className="mb-3 row">
+            <label for="staticEmail" className="col-sm-2 col-form-label">Email</label>
+              <div className="col-sm-10">
+              <input type="Email" className="form-control" placeholder='Email@address.com' id="Email"></input>
               </div>
           </div> 
-          <div class="mb-3 row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" placeholder='Password' id="inputPassword"></input>
+          <div className="mb-3 row">
+            <label for="inputPassword" className="col-sm-2 col-form-label">Password</label>
+            <div className="col-sm-10">
+              <input type="password" className="form-control" placeholder='Password' id="inputPassword"></input>
             </div>
           </div>
-          <div class="input-group">
-            <label for="textarea" class="col-sm-2 col-form-label">Say Hi!</label>
-            <div class="col-sm-10">
-              <textarea class="form-control" aria-label="With textarea"></textarea>
+          <div className="input-group">
+            <label for="textarea" className="col-sm-2 col-form-label">Say Hi!</label>
+            <div className="col-sm-10">
+              <textarea className="form-control" aria-label="With textarea"></textarea>
             </div>
           </div> 
-          <button id="submit-btn" type="button" class="btn btn-dark btn-sm">Submit</button>      
+          <button id="submit-btn" type="button" className="btn btn-dark btn-sm">Submit</button>      
         </div>
       </div>
     </div>
