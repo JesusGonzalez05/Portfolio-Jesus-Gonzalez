@@ -1,39 +1,31 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import '../App.css'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_yt6zgks', 'template_ae8hah7', form.current, 'x3szdJaw8hL7UVWKJ')
+      .then((result) => {
+          console.log("I'm excited to see what we can build together!");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-    <div>
-      <div id="contact-card" className=" card w-75 p-3 mx-auto">
-        <div className="card-body">
-          <div className="mb-3 row">
-            <label for="Name" className="col-sm-2 col-form-label">Name</label>
-              <div className="col-sm-10">
-                <input className="form-control" placeholder='Name'></input>
-              </div>
-          </div>
-          <div className="mb-3 row">
-            <label for="staticEmail" className="col-sm-2 col-form-label">Email</label>
-              <div className="col-sm-10">
-              <input type="Email" className="form-control" placeholder='Email@address.com' id="Email"></input>
-              </div>
-          </div> 
-          <div className="mb-3 row">
-            <label for="inputPassword" className="col-sm-2 col-form-label">Password</label>
-            <div className="col-sm-10">
-              <input type="password" className="form-control" placeholder='Password' id="inputPassword"></input>
-            </div>
-          </div>
-          <div className="input-group">
-            <label for="textarea" className="col-sm-2 col-form-label">Say Hi!</label>
-            <div className="col-sm-10">
-              <textarea className="form-control" aria-label="With textarea"></textarea>
-            </div>
-          </div> 
-          <button id="submit-btn" type="button" className="btn btn-dark btn-sm">Submit</button>      
-        </div>
-      </div>
-    </div>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
   );
 }
 export default Contact;
