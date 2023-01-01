@@ -137,6 +137,12 @@ Lottie {
 position:absolute;
 z-index:-999;
 }
+/* Resume page */
+
+embed {
+  height: 85vh;
+  width: 75vw;
+}
 
 @media only screen and (max-width: 500px) {
   /* about page */
