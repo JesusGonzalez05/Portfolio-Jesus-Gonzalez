@@ -14,7 +14,7 @@ const About = () => {
         <img className='Avatar ms-sm-5 mb-sm-5 mb-5 shadow-lg' src = {Avatar} alt="Jesus' avatar"></img>
         <div className='text-icons'>
           <div className="about-text text-center shadow-lg ">
-            <p>I'm a Software Engineer eager and passionate in create scalable and functional web applications. </p>
+            <p>I'm a Software Engineer eager and passionate in creating scalable and functional web applications. </p>
           </div>
           <div className='icons text-center shadow-lg'>
             <i id="Devicon" className="devicon-mongodb-plain-wordmark"></i>
