@@ -6,8 +6,8 @@ export default function Resume() {
   return (
     <>
       <div class="resume-container text-center">
-        <h1 id="resume-title">Resume</h1>
-        <div id="resume">
+        <p id="resume-title">Resume</p>
+        <div id="resume" className='shadow-lg'>
           <embed src={pdf} type="application/pdf"/>
         </div>
       </div>
