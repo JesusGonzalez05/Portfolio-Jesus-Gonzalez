@@ -11,6 +11,7 @@ const Contact = () => {
     emailjs.sendForm('service_yt6zgks', 'template_ae8hah7', form.current, 'x3szdJaw8hL7UVWKJ')
       .then((result) => {
           console.log("I'm excited to see what we can build together!");
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
       });
