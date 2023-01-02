@@ -208,14 +208,14 @@ display: flex;
 justify-content: center;
 }
 .form{
-margin: 1rem;
+margin: 1.5rem 1rem 1rem 1rem;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: stretch;
 }
 .form-container{
-height: 50vh;
+height: 45vh;
 width: 50vw;
 background-color: hsl(0, 0%, 100%, .65);
 border: 3px solid white;
