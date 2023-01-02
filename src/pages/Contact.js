@@ -20,7 +20,7 @@ const Contact = () => {
 
   return (
     <div className='contact-page'>
-      <img className='' src = {Astronaut} alt="Jesus' avatar as an astronaut"></img>
+      <img className='Astronaut' src = {Astronaut} alt="Jesus' avatar as an astronaut"></img>
 
       <div className='form-container'>
         <form className="form" ref={form} onSubmit={sendEmail}>

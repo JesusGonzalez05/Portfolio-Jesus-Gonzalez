@@ -205,7 +205,12 @@ margin-top: -.5rem;
 height: 80vh;
 width: 100vw;
 display: flex;
-justify-content: center;
+justify-content: flex-start;
+margin-top: 1rem;
+}
+.Astronaut{
+height: 400px;
+width: 400px;
 }
 .form{
 margin: 1.5rem 1rem 1rem 1rem;
