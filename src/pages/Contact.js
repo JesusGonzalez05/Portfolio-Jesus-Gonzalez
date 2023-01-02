@@ -21,7 +21,9 @@ const Contact = () => {
   return (
     <div className='contact-page'>
       <img className='Astronaut' src = {Astronaut} alt="Jesus' avatar as an astronaut"></img>
-
+      <div className='connect-container'>
+        <p className='connect text-center shadow-lg'>Let's connect!</p>
+      </div>
       <div className='form-container'>
         <form className="form" ref={form} onSubmit={sendEmail}>
           <label className='label-1'>Name:</label>
