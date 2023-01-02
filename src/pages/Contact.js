@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Astronaut from '../components/Astronaut.png'
 import '../App.css'
 
 const Contact = () => {
@@ -19,6 +20,8 @@ const Contact = () => {
 
   return (
     <div className='contact-page'>
+      <img className='' src = {Astronaut} alt="Jesus' avatar as an astronaut"></img>
+
       <div className='form-container'>
         <form className="form" ref={form} onSubmit={sendEmail}>
           <label className='label-1'>Name:</label>
