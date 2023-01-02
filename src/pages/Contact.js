@@ -35,6 +35,11 @@ const Contact = () => {
           <input className="email-btn" type="submit" value="Send" />
         </form>
       </div>
+      <img className='Astronaut2' src = {Astronaut} alt="Jesus' avatar as an astronaut"></img>
+      <div className='connect-container2'>
+        <p className='connect2 text-center shadow-lg'>Let's connect!</p>
+      </div>
+
     </div>
   );
 }
