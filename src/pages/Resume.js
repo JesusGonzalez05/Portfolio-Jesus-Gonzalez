@@ -5,7 +5,7 @@ import pdf from '../Jesus-Gonzalez-CS-Resume.pdf';
 export default function Resume() {
   return (
     <>
-      <div class="resume-container text-center">
+      <div className="resume-container text-center">
         <p id="resume-title">Resume</p>
         <div id="resume" className='shadow-lg'>
           <embed src={pdf} type="application/pdf"/>

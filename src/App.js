@@ -25,7 +25,6 @@ import Particles from "./components/particles";
 function App() {
     return (
       <>
-            {/* <Particles /> */}
               <Router>
                 <Particles />
                 <Nav />
