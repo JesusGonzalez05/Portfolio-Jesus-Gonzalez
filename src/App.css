@@ -320,6 +320,7 @@ border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
   }
   .Astronaut{
@@ -330,29 +331,10 @@ border-radius: 10px;
     width: 200px;
   }
   .connect-container{
-    height: 70px;
-    width: 70px;
-    background-color: hsl(0, 0%, 100%, .65);
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-    border: 3px solid white;
-    border-radius: 15px 15px 15px 0px;
-    /* margin: 0rem 4rem 0rem -6rem; */
-  }
-  .connect-container2{
-    height: 70px;
-    width: 80px;
-    background-color: hsl(0, 0%, 100%, .65);
-
+    display: none;
   }
   .connect{
-    height: 45px;
-    width: 100px;
-    background-color: hsl(0, 0%, 100%, .65);
-    margin-top: 1rem;
-    border-radius: 5px;
+    display: none;
   }
   .form{
     /* margin: 1.5rem 1rem 1rem 1rem; */
