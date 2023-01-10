@@ -7,7 +7,7 @@ This portfolio is contructed as a Model View Controller where the Model directly
 ## Table of Contents
 1. [Installations](#installations)
 2. [Usage](#usage)
-3. [Screenshots](#Screenshots)
+3. [Screenshots](#screenshots)
 4. [Questions](#questions)
 
 ## Installations
@@ -27,9 +27,11 @@ Technologies utilized in this app include: <br>
 
 
 ## Screenshots
-will upload screen shots at a later time.
+<img width="1440" alt="Screenshot 2023-01-10 at 12 44 33 PM" src="https://user-images.githubusercontent.com/98119774/211624817-d30602ae-af81-4bef-a7e2-b239b6443221.png">
 
 
 ## Questions
 If you have any questions regarding this project, reach out to me via these links:
 * [Jesus Gonzalez](https://github.com/jesusgonzalez05)<br>
+* [Gmail](Jesusgonzalez051698@gmail.com)<br>
+
