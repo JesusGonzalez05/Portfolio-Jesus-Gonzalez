@@ -164,8 +164,11 @@ margin: 1rem 2rem 1rem 2rem;
 border-radius: 5px;
 
 }
-.project-about{
-
+.links{
+width: 212px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 .project-language-container{
 /* height: 60px;
