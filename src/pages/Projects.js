@@ -8,6 +8,12 @@ import Paws3 from '../components/Paws3.png';
 import Paws4 from '../components/Paws4.png';
 import Paws5 from '../components/Paws5.png';
 
+import Cin1 from '../components/Cin1.png';
+import Cin2 from '../components/Cin2.png';
+import Cin3 from '../components/Cin3.png';
+
+
+
 
 export default function Projects() {
 
@@ -49,9 +55,22 @@ export default function Projects() {
   </div>
 
   <div id="project-container" className="" >
-    <div className='project-preview-container'></div>
-    <div className='project-about-container'></div>
-    <div className='project-language-container'></div>
+    <div className='project-preview-container'>
+    <Slider className='slider' {...settings}>
+        <img src={Cin1} alt="Trulli"></img>
+        <img src={Cin2} alt="Trulli"></img>
+        <img src={Cin3} alt="Trulli"></img>
+      </Slider>
+    </div>
+    <div className='project-about-container is-size-7 p-2 has-text-centered'>
+    CINEMAfiles utilizes Node.js and Express.js to create a RESTful API which is stored in a database using MySQL and the Sequelize ORM. The folder structure meets the MVC paradigm and uses Handlebars.js as the templating engine.
+    </div>
+    <div className='project-language-container p-2'>
+    <i id="Devicon" class="devicon-sequelize-plain"></i>
+    <i id="Devicon" className="devicon-express-original colored"></i>
+    <i id="Devicon" class="devicon-handlebars-plain-wordmark colored"></i>
+    <i id="Devicon" class="devicon-javascript-plain"></i>    
+    </div>
   </div>
 
   <div id="project-container" className="" >
