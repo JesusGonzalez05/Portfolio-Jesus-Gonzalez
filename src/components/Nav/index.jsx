@@ -21,6 +21,13 @@ function NavTabs({ currentPage, handlePageChange }) {
     </button>
     <div className="custom-collapse collapse navbar-collapse" id="navmenu">
       <ul className="navbar-nav ms-auto">
+      <Link to="/" className="text-decoration-none"> 
+          <li className="nav-item">
+            <p className='button nav-link text-white'>
+              Home
+            </p>
+          </li>
+        </Link>
         <Link to="/AboutMe" className="text-decoration-none"> 
           <li className="nav-item">
             <p className='button nav-link text-white'>
