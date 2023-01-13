@@ -2,7 +2,7 @@
 # Portfolio
 
 ## Description
-This portfolio is contructed as a Model View Controller where the Model directly manages the data, the Views are the only output, and the Controller accepts input. Styled with the assistancd of Boostrap to ensure responsivness and some custom CSS for extra features, this portfolio takes you out of this world!
+This React built portfolio is contructed as a Model View Controller where the Model directly manages the data, the Views are the only output, and the Controller accepts input. Styled with the assistancd of Boostrap to ensure responsivness and some custom CSS for extra features, this portfolio takes you out of this world!
 
 ## Table of Contents
 1. [Installations](#installations)
