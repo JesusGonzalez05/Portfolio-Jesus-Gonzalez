@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Jesus-Gonzalez/static/css/main.9a801d1b.css",
+    "main.js": "/Portfolio-Jesus-Gonzalez/static/js/main.fef30093.js",
+    "static/media/Paws3.png": "/Portfolio-Jesus-Gonzalez/static/media/Paws3.1c4a5254b5a9d5977e31.png",
+    "static/media/Paws2.png": "/Portfolio-Jesus-Gonzalez/static/media/Paws2.cca7a1fbe17dd2fb9ad2.png",
+    "static/media/Paws4.png": "/Portfolio-Jesus-Gonzalez/static/media/Paws4.d9b8453546ea2eb6fd5a.png",
+    "static/media/Cin1.png": "/Portfolio-Jesus-Gonzalez/static/media/Cin1.37d1661c6ae55f4c295c.png",
+    "static/media/Paws5.png": "/Portfolio-Jesus-Gonzalez/static/media/Paws5.e1a71acd2e23da8d6a60.png",
+    "static/media/Paws1.png": "/Portfolio-Jesus-Gonzalez/static/media/Paws1.3a7f3e95d2d4a5a576fc.png",
+    "static/media/Astronaut.png": "/Portfolio-Jesus-Gonzalez/static/media/Astronaut.500baff48cbcc1a5dd0d.png",
+    "static/media/Cin2.png": "/Portfolio-Jesus-Gonzalez/static/media/Cin2.8c575a4cf4b9f8c87ffd.png",
+    "static/media/Cin3.png": "/Portfolio-Jesus-Gonzalez/static/media/Cin3.c3a384a7dec5b62e1ef7.png",
+    "static/media/Avatar.png": "/Portfolio-Jesus-Gonzalez/static/media/Avatar.29385d6ba18f6de84f4e.png",
+    "static/media/Jesus-Gonzalez-CS-Resume.pdf": "/Portfolio-Jesus-Gonzalez/static/media/Jesus-Gonzalez-CS-Resume.ef26f3b34351c1f8b926.pdf",
+    "index.html": "/Portfolio-Jesus-Gonzalez/index.html",
+    "main.9a801d1b.css.map": "/Portfolio-Jesus-Gonzalez/static/css/main.9a801d1b.css.map",
+    "main.fef30093.js.map": "/Portfolio-Jesus-Gonzalez/static/js/main.fef30093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a801d1b.css",
+    "static/js/main.fef30093.js"
+  ]
+}
