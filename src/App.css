@@ -309,6 +309,20 @@ border-radius: 10px;
     padding-top: 1rem;
     border-radius: 5px;
   }
+  /* Project page  */
+  #project-container{
+    height: 700px;  
+    width: 340px;
+    background-color: hsl(0, 0%, 92%, .6);
+    border: 3px solid white;
+    border-radius: 0px 45px 0px 45px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 30%;
+    }
   /* Resume page */
   .resume-container{
     height: 85vh;
