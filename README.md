@@ -1,4 +1,3 @@
-
 # Portfolio
 
 ## Description
@@ -11,9 +10,9 @@ This React built portfolio is contructed as a Model View Controller where the Mo
 4. [Questions](#questions)
 
 ## Installations
-<!--This app is deployeed on Heroku!<br>
-[Cinemafiles](https://cinemafiles-by-cinemaphiles.herokuapp.com/)
-![](./assets/images/cinemafiles-by-cinemaphiles.PNG)!-->
+This app is deployeed on Heroku!<br>
+[Jesus' Portfolio](https://gonzalez-portfolio.herokuapp.com/)
+
 
 ## Usage
 Technologies utilized in this app include: <br>
