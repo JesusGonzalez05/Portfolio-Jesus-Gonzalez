@@ -81,10 +81,10 @@ export default function Projects() {
     </div>
 
     <div className='project-language-container p-2'>
-    <i id="Devicon" class="devicon-sequelize-plain"></i>
+    <i id="Devicon" className="devicon-sequelize-plain"></i>
     <i id="Devicon" className="devicon-express-original colored"></i>
-    <i id="Devicon" class="devicon-handlebars-plain-wordmark colored"></i>
-    <i id="Devicon" class="devicon-javascript-plain"></i>    
+    <i id="Devicon" className="devicon-handlebars-plain-wordmark colored"></i>
+    <i id="Devicon" className="devicon-javascript-plain"></i>    
     </div>
   </div>
 
