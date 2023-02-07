@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from "react-slick";
-import { Link } from 'react-router-dom';
 
 // project photos
 import Paws1 from '../components/Paws1.png';
@@ -12,8 +11,6 @@ import Paws5 from '../components/Paws5.png';
 import Cin1 from '../components/Cin1.png';
 import Cin2 from '../components/Cin2.png';
 import Cin3 from '../components/Cin3.png';
-
-
 
 
 export default function Projects() {
@@ -68,7 +65,7 @@ export default function Projects() {
         <img src={Cin1} alt="Trulli"></img>
         <img src={Cin2} alt="Trulli"></img>
         <img src={Cin3} alt="Trulli"></img>
-      </Slider>
+    </Slider>
     </div>
 
     <div className='mt-4 text-center links'>
