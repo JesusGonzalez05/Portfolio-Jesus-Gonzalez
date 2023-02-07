@@ -87,13 +87,6 @@ export default function Projects() {
     <i id="Devicon" className="devicon-javascript-plain"></i>    
     </div>
   </div>
-
-  {/* <div id="project-container" className="" >
-    <div className='project-preview-container'></div>
-    <div className='project-about-container'></div>
-    <div className='project-language-container'></div>
-  </div> */}
-
 </div>
   );
 }
