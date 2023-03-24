@@ -14,7 +14,7 @@ const About = () => {
         <img className='Avatar ms-sm-5 mb-sm-5 mb-5 shadow-lg' src = {Avatar} alt="Jesus' avatar"></img>
         <div className='text-icons'>
           <div className="about-text text-center shadow-lg ">
-            <p> My name is Jesus Gonzalez I'm a recent University of Central Florida Coding Bootcamp graduate eager and passionate in creating scalable and functional web applications.</p>
+            <p> Hi, I'm Jesus Gonzalez a web developer with experience in operational oranization and productivity. I am certified in Full Stack Web Development from the University of Central Florida. Whether I am working on bettering operational metrics or building an application, my passion lies in collabrative creativity and problem solving.</p>
           </div>
           <div className='icons text-center shadow-lg'>
             <i id="Devicon" className="devicon-mongodb-plain-wordmark"></i>
