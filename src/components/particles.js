@@ -88,7 +88,7 @@ function Particle() {
                         "mode": "connect"
                     },
                     "onclick": {
-                        "enable": true,
+                        "enable": false,
                         "mode": "repulse"
                     },
                     "resize": true
