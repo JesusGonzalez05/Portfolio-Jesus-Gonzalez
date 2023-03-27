@@ -1,17 +1,17 @@
 import React from 'react';
-import Moon from '../Moon.json';
-import Lottie from 'lottie-react';
+// import Moon from '../Moon.json';
+// import Lottie from 'lottie-react';
 import Avatar from '../components/Avatar.png'
 
 const About = () => {
   return (
     <>
     <div id="boarding-container" className="container">
-      <div id="boarding-pass" className="shadow" >
-        <div className="title text-center mt-2">
-          <p className="card-title">About Me</p>
+      <div id="boarding-pass" className="" >
+        <div className="about-title text-center mt-2">
+          <p className="">About Me</p>
         </div>
-        <img className='Avatar ms-sm-5 mb-sm-5 mb-5 shadow-lg' src = {Avatar} alt="Jesus' avatar"></img>
+        <img className='Avatar ms-lg-5 mb-lg-5 shadow-lg' src = {Avatar} alt="Jesus' avatar"></img>
         <div className='text-icons'>
           <div className="about-text text-center shadow-lg ">
             <p> Hi, I'm Jesus Gonzalez, a web developer with experience in operational oranization and productivity. I am certified in Full Stack Web Development from the University of Central Florida. Whether I am working to improve operational metrics or building an application, my passion lies in collabrative creativity and problem solving.</p>
@@ -25,9 +25,9 @@ const About = () => {
         </div>
       </div>
     </div>
-    <div id='lottie-bg'>
+    {/* <div id='lottie-bg'>
     <Lottie animationData={Moon} />
-    </div>
+    </div> */}
     </>
   );
 }
