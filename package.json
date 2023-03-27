@@ -1,8 +1,8 @@
 {
+  "homepage": "http://jesusgonzalez05.github.io/Portfolio-Jesus-Gonzalez",
   "name": "jesus-gonzalez-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jesusgonzalez05.github.io/Portfolio-Jesus-Gonzalez",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
