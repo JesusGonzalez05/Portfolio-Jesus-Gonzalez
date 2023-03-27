@@ -99,6 +99,7 @@ position:absolute;
 z-index:-999;
 } */
 
+
 /* Project page */
 .project-page{
 height: 100vh;
@@ -135,7 +136,6 @@ width: 220px; */
 background-color: hsl(0, 0%, 92%, .8);
 margin: 1rem 2rem 1rem 2rem;
 border-radius: 5px;
-
 }
 .links{
 width: 212px;
