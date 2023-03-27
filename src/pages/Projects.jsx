@@ -43,8 +43,8 @@ export default function Projects() {
     </div>
 
     <div className='mt-4 text-center links'>
-      <a target="_blank" rel='Only-Paws' className='btn btn-outline-light' href="https://only-paws.herokuapp.com/">Deployed site</a>
-      <a target="_blank" rel='Only-Paws' className='btn btn-outline-light' href="https://github.com/JesusGonzalez05/only-paws">Repo</a>
+      <a target="_blank" rel='noreferrer' className='btn btn-outline-light' href="https://only-paws.herokuapp.com/">Deployed site</a>
+      <a target="_blank" rel='noreferrer' className='btn btn-outline-light' href="https://github.com/JesusGonzalez05/only-paws">Repo</a>
     </div>
 
     <div className='project-about-container is-size-7 p-2 has-text-centered'>
@@ -69,8 +69,8 @@ export default function Projects() {
     </div>
 
     <div className='mt-4 text-center links'>
-      <a target="_blank" rel='Cinemafiles' className='btn btn-outline-light' href="https://cinemafiles-by-cinemaphiles.herokuapp.com/">Deployed site</a>
-      <a target="_blank" rel='Cinemafiles' className='btn btn-outline-light' href="https://github.com/sangki810/Project-2-The-Cinemaphiles">Repo</a>
+      <a target="_blank" rel='noreferrer' className='btn btn-outline-light' href="https://cinemafiles-by-cinemaphiles.herokuapp.com/">Deployed site</a>
+      <a target="_blank" rel='noreferrer' className='btn btn-outline-light' href="https://github.com/sangki810/Project-2-The-Cinemaphiles">Repo</a>
     </div>
     
     <div className='project-about-container is-size-7 p-2 has-text-centered'>
